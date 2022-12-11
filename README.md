@@ -6,5 +6,14 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 | Description     |
 | :-------------- 
 |  $ pip install shodan|
+| $ shodan init YOUR_API_KEY|
+
+## Shodan CLI - Test
+| Description     |
+| :-------------- 
+| $ shodan -h |
+|$ shodan info|
+|$ shodan myip|
+|$ shodan version|
 
 
