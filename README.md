@@ -8,7 +8,7 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 |  $ pip install shodan|
 | $ shodan init YOUR_API_KEY|
 
-# Shodan CLI - Test
+#### Shodan CLI - Test
 | Command     |
 | :-------------- 
 | $ shodan -h |
