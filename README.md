@@ -33,7 +33,11 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 |$ shodan search --fields ip_str,port,org,hostnames net:192.168.1.0/24|
 
 ## Shodan CLI - Get to know the domain
+| Command     |
 | :-------------- 
 |$ shodan domain google.com|
-|Get to know the history|
+
+## Shodan CLI - Get to know the history
+| Command     |
+| :-------------- 
 |$ shodan host --history 8.8.8.8|
