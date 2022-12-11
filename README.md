@@ -18,6 +18,7 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 
 ## Shodan CLI - Use It
 | Command     |
+| :-------------- 
 |$ shodan stats --facets org country:GB ssl.version:sslv2 HTTP|
 |$ shodan count port:22 country:gb|
 |$ shodan host 8.8.8.8|
@@ -25,12 +26,14 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 
 ## Shodan CLI - Get to know the network
 | Command     |
+| :-------------- 
 |$ shodan count net:192.168.1.0/24|
 |$ shodan stats --facets port net:192.168.1.0/14|
 |$ shodan stats --facets vuln net:192.168.1.0/14|
 |$ shodan search --fields ip_str,port,org,hostnames net:192.168.1.0/24|
 
 ## Shodan CLI - Get to know the domain
+| :-------------- 
 |$ shodan domain google.com|
 |Get to know the history|
 |$ shodan host --history 8.8.8.8|
