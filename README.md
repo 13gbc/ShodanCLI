@@ -3,15 +3,15 @@
 Shodan is a search engine for internet-connected devices. It allows users to search for specific types of devices and view detailed information about them. The Shodan command-line interface (CLI) is a tool that allows users to access Shodan's features from the command line. Some common Shodan CLI commands include the following:
 
 ##### Shodan CLI - Installation
-| Command     | Description|
+| Command     | Description||
 | :-------------- 
-|  $ pip install shodan| |
+|  $ pip install shodan| ||
 | $ shodan init YOUR_API_KEY||
 
 #### Shodan CLI - Test
-| Command     |Description|
+| Command     |Description||
 | :-------------- 
-| $ shodan -h |to view the help menu and see a list of all available commands and options.|
+| $ shodan -h |to view the help menu and see a list of all available commands and options.||
 |$ shodan info||
 |$ shodan myip||
 |$ shodan version||
