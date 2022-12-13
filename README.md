@@ -4,13 +4,13 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 
 ##### Shodan CLI - Installation
 | Command     | Description||
-| :-------------- 
+| :-------------- | :-------------- ||
 |  $ pip install shodan| ||
 | $ shodan init YOUR_API_KEY||
 
 #### Shodan CLI - Test
 | Command     |Description||
-| :-------------- 
+| :-------------- |:--------------||
 | $ shodan -h |to view the help menu and see a list of all available commands and options.||
 |$ shodan info||
 |$ shodan myip||
