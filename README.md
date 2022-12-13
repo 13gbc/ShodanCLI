@@ -36,6 +36,12 @@ Shodan is a search engine for internet-connected devices. It allows users to sea
 | Command     |
 | :-------------- 
 |$ shodan domain google.com|
+|$ shodan domain $domain --summary|
+|$ shodan domain $domain --export domain_info.csv|
+|$ shodan domain $domain --histogram |
+|$ shodan domain $domain --facets port,org,os|
+|$ shodan domain $domain --fields ip_str,hostnames,org,os,port,isp|
+
 
 #### Shodan CLI - Get to know the history
 | Command     |
